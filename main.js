@@ -6,8 +6,6 @@ $(document).ready(function() {
         const nomeTarefa = $('input').val();
         const novoItem = $(`<li> </li>`)
 
-       
-
         $(`<li> ${nomeTarefa} </li>`).appendTo(novoItem)
 
         $(novoItem).appendTo('ul')
